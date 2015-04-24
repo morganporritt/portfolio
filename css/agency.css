@@ -348,6 +348,18 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #FF3D00;
+}
+#skills .col-md-3{
+    width: 24%;   
+    border: black;
+    border-style: solid;
+    border-radius: 16px;
+    margin: 4px;
+    padding: 9px;
+    background: rgb(74, 74, 74);
+    border-width: 6px;
 }
 
 #portfolio .portfolio-item {
@@ -367,7 +379,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(255, 48, 0, 0.9);
+    background: rgba(255, 48, 0, 0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
