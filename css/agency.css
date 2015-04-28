@@ -134,7 +134,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #FFFFFF;
     color: #fff;
     background-color: #FF3D00;
 }
@@ -351,7 +351,8 @@ section h3.section-subheading {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #FF3D00;
 }
-#skills .col-md-3{
+#skill_card{
+    color: blue;
     width: 24%;   
     border: black;
     border-style: solid;
@@ -361,6 +362,11 @@ section h3.section-subheading {
     background: rgb(74, 74, 74);
     border-width: 6px;
 }
+/*@media(min-width: 1200px){
+    #skills img{
+        width: 40%;
+    }
+}*/
 
 #portfolio .portfolio-item {
     right: 0;

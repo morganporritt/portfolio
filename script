@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "start"
+ 
+ssh -p222 morganporritt.com -t "cd /home/morgan/webProjects/portfolio && git pull -u origin master"
+
+echo "end"
