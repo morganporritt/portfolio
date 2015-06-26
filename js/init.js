@@ -12,7 +12,7 @@ $(function(){
 
     $("#typedBanner").typed({
         strings: ["<span class = 'blue'>function</span> <span class = 'green'>initilize_portfolio</span> ( ) { </br>" + 
-        	"<span class = 'blue'>var</span> skills <span class = 'red'>=</span> { </br><span class = 'yellow tab'>     &apos;JavaScript&apos;</span>, </br>"
+        	"<span class = 'blue'>var</span> skills <span class = 'red'>=</span> { </br><span class = 'yellow tab'>     &apos;JavaScript&apos;</span>, </br><span class = 'yellow tab'>     &apos;HTML&apos;</span>, </br><span class = 'yellow tab'>     &apos;CSS&apos;</span>, </br><span class = 'yellow tab'>     &apos;PHP&apos;</span>, </br>};"
         ],
         typeSpeed: 10,
         backDelay: 500,

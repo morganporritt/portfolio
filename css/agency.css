@@ -892,6 +892,7 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content img {
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .portfolio-modal .close-modal {
