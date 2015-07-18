@@ -281,12 +281,12 @@ header {
     -o-background-size: cover;
 }
 
-header .intro-text {
+.intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+.intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -294,7 +294,7 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+.intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -303,22 +303,22 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-header .blue{
+.blue{
     color: rgb(120, 214, 255);
 }
-header .red{
+.red{
     color: rgb(255, 0, 77);
 }
-header .green{
+.green{
     color: rgb(124, 242, 30)
 }
-header .yellow{
+.yellow{
     color: rgb(250, 243, 118);
 }
-header .purple{
+.purple{
     color: rgb(176, 118, 250);
 }
-header .tab{
+.tab{
     margin-left: 50px;
 }
 
@@ -358,12 +358,12 @@ header .tab{
         }
 
 @media(min-width:768px) {
-    header .intro-text {
+    .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
+    .intro-text .intro-lead-in {
       font-family: courier new;
       font-size: 20px;
       line-height: 20px;
@@ -378,7 +378,7 @@ header .tab{
       text-align: left;
     }
 
-    header .intro-text .intro-heading {
+    .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
