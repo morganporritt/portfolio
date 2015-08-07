@@ -72,9 +72,11 @@ h6 {
     border-color: #FF3D00;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     color: #fff;
     background-color: #FF3D00;
+    transition: font-size .7s;
+    font-size: 16pt;
 }
 
 .btn-primary:hover,
@@ -82,9 +84,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #f6bf01;
     color: #fff;
     background-color: #FF3D00;
+    font-size: 18pt;
 }
 
 .btn-primary:active,
@@ -274,7 +276,7 @@ header {
     background-attachment: scroll;
     background-image: url(../img/materialDesign.jpg);
     background-position: center center;
-    background-repeat: none;
+    /*background-repeat: none;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -331,7 +333,7 @@ header {
             -o-animation: blink 0.7s infinite;
             animation: blink 0.7s infinite;
         }
-        @-keyframes blink{
+        /*@-keyframes blink{
             0% { opacity:1; }
             50% { opacity:0; }
             100% { opacity:1; }
@@ -355,7 +357,7 @@ header {
             0% { opacity:1; }
             50% { opacity:0; }
             100% { opacity:1; }
-        }
+        }*/
 
 @media(min-width:768px) {
     .intro-text {
@@ -419,6 +421,20 @@ section h3.section-subheading {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #FF3D00;
 }
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+}
 #skill_card{
     color: blue;
     width: 24%;   
@@ -430,6 +446,12 @@ section h3.section-subheading {
     background: rgb(74, 74, 74);
     border-width: 6px;
 }
+#skills{
+    background-color: rgba(48, 48, 48, 0.88);
+}
+#skills h2{
+    color: white;
+}
 /*@media(min-width: 1200px){
     #skills img{
         width: 40%;
@@ -440,20 +462,27 @@ section h3.section-subheading {
     right: 0;
     margin: 0 0 15px;
 }
+#portfolio{
+    background: #BDBDBD;
+}
 
 #portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
+    /* border: #444444 solid 7px; */
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #444444;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 94%;
+    height: 92%;
     opacity: 0;
-    background: rgba(255, 48, 0, 0.7);
+    background: rgba(142, 142, 142, 0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -488,7 +517,6 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
@@ -867,6 +895,7 @@ ul.social-buttons li a:active {
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
+    background-color: #BDBDBD;
 }
 
 .portfolio-modal .modal-content h2 {
@@ -899,10 +928,9 @@ ul.social-buttons li a:active {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 75px;
-    height: 75px;
     background-color: transparent;
     cursor: pointer;
+    font-size: 40pt;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -940,19 +968,40 @@ ul.social-buttons li a:active {
     background: #FF3D00;
 }
 
-::selection {
-    text-shadow: none;
-    background: #FF3D00;
-}
-
-img::selection {
-    background: 0 0;
-}
-
 img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: #FF3D00;
+/*body {
+    webkit-tap-highlight-color: black;
+}*/
+
+@media(max-width:1000px) {
+    h4 {
+        font-size: 12pt;
+    }
+}
+@media(max-width:768px) {
+    h4 {
+        font-size: 10pt;
+    }
+}
+@media(max-width:400px) {
+    h4 {
+        font-size: 8pt;
+    }
+    section#contact .form-group input, section#contact .form-group textarea {
+       padding: 10px;
+    }
+    section#contact .form-group textarea.form-control {
+        height: 166px;
+    }
+    .portfolio-modal .close-modal {
+        font-size: 20pt;
+        top: 15px;
+        right: 15px;
+    }
+    .portfolio-modal .modal-content {
+        padding: 30px 0;
+    }
 }

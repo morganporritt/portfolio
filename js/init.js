@@ -2,8 +2,11 @@
 
 var windowHeight = $( window ).height();
 
-$("#banner").css("height", windowHeight + "px" );
+$("#banner").css("min-height", windowHeight + "px" );
 $(".intro-lead-in").css("height", windowHeight/2 + "px");
+$("#skills").css("min-height", windowHeight + "px" );
+$("#portfolio").css("min-height", windowHeight + "px" );
+$("#contact").css("min-height", windowHeight + "px" );
 
 
 // initilize the typed.js stuff in header
