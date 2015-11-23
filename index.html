@@ -16,6 +16,7 @@
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/league.css" id="theme">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -218,6 +219,20 @@
                     <div class="portfolio-caption">
                         <h4>Portfolio Site</h4>
                         <p class="text-muted">Website</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12 portfolio-item">
+                    <a href="#nnModal" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/full_backtest.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Beat the Market</h4>
+                        <p class="text-muted">Code / Neural Network</p>
                     </div>
                 </div>
             </div>
@@ -423,6 +438,55 @@
         </div>
     </div>
 
+<!-- Beat the Market / Neural Network Modal  -->
+
+    <div class="portfolio-modal modal fade" id="nnModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <i class="fa fa-times close-modal" data-dismiss="modal"></i>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Beat the Market</h2>
+                            <p class="item-intro text-muted">Code / Neural Network</p>
+                            <img class="img-responsive img-centered" src="img/portfolio/full_backtest.jpg" alt="">
+                            
+                            <p>Wouldn’t it be wonderful if there was a program that could predict the future of the market? While knowing the future is impossible using history to make precise predictions based on the past is a reality.</p>
+
+                          
+
+
+
+                            <div>
+                                <h4>Technologies used in project: </h4>
+                                <div class="col-lg-4 col-md-4 col-sm-1">
+                                    <h4 class="service-heading">Python</h4>
+                                    <img class="img-responsive center-block" src="img/logos/python.png" alt="">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-1">
+                                    <h4 class="service-heading">Neural Network</h4>
+                                    <img class="img-responsive center-block" src="img/logos/nn.png" alt="">
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-1">
+                                    <h4 class="service-heading">Quantopian</h4>
+                                    <img class="img-responsive center-block" src="img/logos/quantopian.png" alt="">
+                                </div>
+                            </div>
+
+                            <a class="btn btn-primary" href="nn.html" target="blank"><i class="fa fa-arrow-circle-o-right"></i> Learn More</a>
+                            <a class="btn btn-primary" href="beatTheMarket.py" target="blank"><i class="fa fa-download"></i> Download the Code</a>
+
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
 <!-- Skills Modal  -->
 
     <div class="portfolio-modal modal fade" id="skillsModal" tabindex="-1" role="dialog" aria-hidden="true">
@@ -485,6 +549,7 @@
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/highlight.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -494,6 +559,8 @@
     <script src="js/agency.js"></script>
     <script src="js/init.js"></script>
     <script src="js/typed.min.js"></script>
+
+   
 
 </body>
 
