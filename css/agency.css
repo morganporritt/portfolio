@@ -76,7 +76,7 @@ h6 {
     color: #fff;
     background-color: #FF3D00;
     transition: font-size .7s;
-    font-size: 16pt;
+    font-size: 9pt;
 }
 
 .btn-primary:hover,
@@ -86,7 +86,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     color: #fff;
     background-color: #FF3D00;
-    font-size: 18pt;
+    font-size: 11pt;
 }
 
 .btn-primary:active,
@@ -884,6 +884,11 @@ ul.social-buttons li a:active {
 .btn.active,
 .btn:active:focus {
     outline: 0;
+}
+
+.modal_buttons{
+    width: 100%;
+    display: inline-block;
 }
 
 .portfolio-modal .modal-content {
