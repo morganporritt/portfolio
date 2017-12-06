@@ -378,6 +378,7 @@ header {
       border-radius: 7px;
       margin: auto;
       text-align: left;
+      height: 500px;
     }
 
     .intro-text .intro-heading {
@@ -391,12 +392,12 @@ header {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 60px;
     font-size: 40px;
 }
 
@@ -407,12 +408,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
